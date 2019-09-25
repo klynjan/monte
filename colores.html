@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
+
+
+    <script type="text/javascript" src="onepagescroll.js"></script>
+    <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <title>Monte Coiron</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+
+            <section class="page1">
+                <video src="images/malargue.mp4" autoplay muted width="100%" loop></video>
+                <div class="texto-encima">
+                    <div class="caption center-align ">
+                        <h3 class="light grey-text text-lighten-3">Monte Coiron</h3>
+                        <h5 class="light grey-text text-lighten-3">Aldea de montañas.</h5>
+                        <h6 class="light grey-text text-lighten-3">Malargüe, Argentina.</h6>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="page2">
+
+                <!--Reservas 1-->
+
+                <div class="container"> <a name="reserva"></a>
+                    <ul class="collapsible lime lighten-5 hoverable">
+                        <li>
+                            <div class="collapsible-header  lime accent-1"><i class="material-icons">R</i>Reservas</div>
+                            <div class="collapsible-body"><span>
+
+                                    <div class="row">
+                                        <div class="col s6">Del: <input type="text" class="datepicker" value="Ingreso">
+                                        </div>
+                                        <div class="col s6"> Al: <input type="text" class="datepicker" value="Salida">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <form class="col s12">
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <i class="material-icons prefix">account_circle</i>
+                                                    <input id="icon_prefix" type="text" class="validate">
+                                                    <label for="icon_prefix">Nombre y Apellido</label>
+                                                </div>
+                                                <div class="input-field col s6">
+                                                    <i class="material-icons prefix">phone</i>
+                                                    <input id="icon_telephone" type="tel" class="validate">
+                                                    <label for="icon_telephone">Telefono</label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <select>
+                                                <optgroup label="Aparts">
+                                                    <option value="1">Aparts hasta 2 personas.</option>
+                                                    <option value="2">Aparts hasta 4 personas.</option>
+                                                </optgroup>
+                                                <optgroup label="Cabañas">
+                                                    <option value="3">Cabañas hasta 4 personas.</option>
+                                                </optgroup>
+                                            </select>
+                                            <label>Hospedaje</label>
+                                        </div>
+
+                                        <div class="input-field col s6">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">Otros comentarios</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-action">
+                                        <div class="right-align">
+                                            <button class="btn waves-effect waves-light" type="submit" name="action">
+                                                Reservar
+                                                <i class="material-icons right">send</i>
+                                            </button>
+                                        </div>
+
+                                </span></div>
+                        </li>
+                </div>
+
+                <!-- CABANAS Y APARTS CARDS-->
+
+                <p> <a name="cabañas"></a></a></p>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col m4">
+                            <div class="card large hoverable">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img class="responsive-img"
+                                                src="images/caban/caban1.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban2.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban2a.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban3.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban4.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban5.jpg"></a>
+
+
+                                    </div><span class="card-title grey-text">Cabañas</span>
+                                </div>
+                                <div class="card-content">
+
+                                    <p>Hermosas Cabañas en Malargue, muy lindo entorno, tranquilidad absoluta, las
+                                        cabañas
+                                        muy
+                                        equipadas y todo limpio, los sommiers exelentes, la terraza de la pileta y
+                                        parque
+                                        espectacular para matear y tomar solcito.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href=#reserva>Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col m4">
+                            <div class="card large hoverable">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img src="images/aparts/apart1.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/aparts/apart2.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/aparts/apart3.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/aparts/aparts.png"></a>
+                                    </div><span class="card-title grey-text">Aparts</span>
+                                </div>
+                                <div class="card-content">
+                                    <p> El apart es muy amplio y se encuentra en un bonito lugar arbolado con sombra
+                                        dificil
+                                        de
+                                        encontrar en Malargue. Este cuenta con todas las comodidades. Camas amplias de
+                                        buenos y
+                                        cómodos colchones, cocina completa y amplio lugar para estar.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href=#reserva>Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col m4">
+                            <div class="card large hoverable">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img class="responsive-img"
+                                                src="images/caban/caban1.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban2.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban2a.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban3.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban4.jpg"></a>
+                                        <a class="carousel-item" href="#one!"><img src="images/caban/caban5.jpg"></a>
+
+
+                                    </div><span class="card-title grey-text">Cabañas</span>
+                                </div>
+                                <div class="card-content">
+
+                                    <p>Hermosas Cabañas en Malargue, muy lindo entorno, tranquilidad absoluta, las
+                                        cabañas
+                                        muy
+                                        equipadas y todo limpio, los sommiers exelentes, la terraza de la pileta y
+                                        parque
+                                        espectacular para matear y tomar solcito.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href=#reserva>Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="page3">
+
+                <div class="wrapperw">
+                    <div class="boxw im1"></div>
+                    <div class="boxw im2"></div>
+                    <div class="boxw im3"></div>
+                    <div class="boxw im4"></div>
+                    <div class="boxw im5"></div>
+                    <div class="boxw im6"></div>
+                    <div class="boxw im7"></div>
+                    <div class="boxw im8"></div>
+                    <div class="boxw im9"></div>
+                </div>
+
+            </section>
+
+            <section class="page4">
+
+                <iframe width="100%" height="37%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-69.59025621414186%2C-35.45534566959328%2C-69.58726286888124%2C-35.454100300452865&amp;layer=mapnik&amp;marker=-35.45472298743257%2C-69.58875954151154"
+                    style="border: 1px solid black"></iframe>
+                <!--FOOTER-->
+
+                <footer class="page-footer ">
+                    <div class="blue-grey darken-3">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col l6 s12">
+
+                                    <h5 class="white-text">Monte Coiron</h5>
+                                    <div class="grey-text">
+                                        <ul class="collapsible">
+                                            <li>
+                                                <div class="collapsible-header hoverable"><i
+                                                        class="material-icons">call</i>Contacto
+                                                </div>
+                                                <div class="collapsible-body"><span>Reservas: (0260) 154408924 /
+                                                        154575564</span><span>
+                                                        <h6>mail: montecoiron@gmail.com</h6>
+                                                    </span></div>
+                                            </li>
+                                            <li>
+                                                <div class="collapsible-header hoverable"><i
+                                                        class="material-icons">place</i>Pasaje
+                                                    El
+                                                    Pehuenche N°235
+                                                    Ruta 40 Norte, Malargüe, Mendoza</div>
+                                                <div class="collapsible-body"><span>
+
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.010439492231!2d-69.59067468498787!3d-35.454535980247805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967a7eb9808639e1%3A0xa59926140400643a!2sMonte+Coiron!5e0!3m2!1ses!2sar!4v1564588266095!5m2!1ses!2sar"
+                                                            width="400" height="300" frameborder="0" style="border:0"
+                                                            allowfullscreen></iframe>
+
+                                                    </span></div>
+                                            </li>
+                                            <li>
+                                                <div class="collapsible-header hoverable"><i
+                                                        class="material-icons">whatshot</i>Third</div>
+                                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                    <p class="grey-text text-lighten-4">Gracias por visitarnos</p>
+                                </div>
+                                <div class="col l4 offset-l2 s12">
+                                    <h5 class="white-text">Visitanos en:</h5>
+                                    <ul>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.booking.com/hotel/ar/monte-coiron.es-ar.html"
+                                                target="_blank">Booking</a></li>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.despegar.com.ar/hoteles/h-362225/monte-coiron-malargue!"
+                                                target="_blank"> Despegar.com</a>
+                                        </li>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.tripadvisor.com.ar/Hotel_Review-g1156016-d3156145-Reviews-Monte_Coiron-Malargue_Province_of_Mendoza_Cuyo.html!"
+                                                target="_blank">TripAdvisor</a></li>
+
+
+
+                                    </ul>
+                                    <h5 class="white-text">Sobre Malargue:</h5>
+                                    <ul>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.instagram.com/explore/locations/250610749/malargue-mendoza/"
+                                                target="_blank">Instagram</a></li>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.google.com/destination?q=malargue&safe=off&output=search&dest_mid=/m/06cl10&sa=X&ved=2ahUKEwi5jI6X3vbjAhU5HLkGHXlJAeMQ6tEBKAQwAHoECAsQBw#dest_mid=/m/06cl10&tcfs=EhYKCS9tLzA2Y2wxMBIJTWFsYXJnw7xl"
+                                                target="_blank"> Google viajes</a>
+                                        </li>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="https://www.clarin.com/viajes/malargue-increible-paisaje-cuevas-volcanes-cascadas_0_65y736Agw.html"
+                                                target="_blank">Clarin</a></li>
+                                        <li><a class="grey-text text-lighten-3"
+                                                href="http://www.malargue.tur.ar/">Malargüe
+                                                Turismo.</a></li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-copyright">
+                            <div class="container">
+                                © 2019 RobertoHTML Design.
+                                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+            <script>document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.parallax');
+                    var instances = M.Parallax.init(elems);
+                });</script>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.slider');
+                    var instances = M.Slider.init(elems);
+                });
+
+
+            </script>
+            <!--Carousel fotos piscina-->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.carousel');
+                    var instances = M.Carousel.init(elems);
+                });
+
+
+
+            </script>
+
+
+            <!--Collapsive-->
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.collapsible');
+                    var instances = M.Collapsible.init(elems);
+                });
+            </script>
+
+            <!--carousel-->
+            <script>  var instance = M.Carousel.init({
+                    fullWidth: true
+                });</script>
+
+            <!--Calendar-->
+
+            <script>document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.datepicker');
+                    var instances = M.Datepicker.init(elems);
+                });</script>
+
+
+            <script> document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('select');
+                    var instances = M.FormSelect.init(elems);
+                });</script>
+
+            <!--Modal-->
+            <script> document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.modal');
+                    var instances = M.Modal.init(elems, options);
+                });</script>
+            <script> var instance = M.Modal.getInstance(elem);</script>
+<!--
+            <script>
+                onePageScroll(".main", {
+                    sectionContainer: "section",
+                    loop: false,
+                    responsiveFallback: false
+                });	
+            </script>
+-->
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!--PARALLAX
+
+                <div class="parallax-container">
+                    <div class="parallax"> <img src='images/parallax-nicolas prieto.jpg' height="1000px"></div>
+
+                </div>
+-->
+
+<!-- 2das tarjetas 
+
+                <div class="container">
+                    <p> <a class=" btn modal-trigger transparent" name="piscina"></a></a></p>
+                    <div class="row">
+                        <div class="col m12">
+                            <div class="card hoverable ">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img class="responsive-img"
+                                                src="images/piscina/piscina6.jpg"></a>
+
+                                        <span class="card-title">Piscina exterior</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p> Pileta exterior de temporada de 4 x 9 metros con espacio verde, solarium,
+                                            reposeras
+                                            y cerco perimetral.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href=#reserva>Reservar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col m12">
+                            <div class="card hoverable">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img class="responsive-img"
+                                                src="images/piscina/piscina1.jpg"></a>
+                                        <a class="carousel-item" href="#two!"><img class="responsive-img"
+                                                src="images/piscina/piscina2.jpg"></a>
+                                        <a class="carousel-item" href="#three!"><img class="responsive-img"
+                                                src="images/piscina/piscina3.jpg"></a>
+                                        <a class="carousel-item" href="#four!"><img class="responsive-img"
+                                                src="images/piscina/piscina4.jpg"></a>
+                                        <span class="card-title">Piscina Climatizada</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>La Pileta Climatizada Cubierta de 6,5 x 3,5 metros, se encuentra emplazada
+                                            junto
+                                            a un
+                                            amplio solarium y sauna seco, para poder disfrutar durante todo el año y
+                                            bajo
+                                            cualquier
+                                            clima, disponiendo también de reposeras y living en el exterior para vivir
+                                            la
+                                            paz y
+                                            tranquilidad que brinda Cabañas Monte Coiron.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href=#reserva>Reservar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+-->
+
+<!--PARALLAX2
+                <div class="parallax-container">
+                    <div class="parallax"> <img src='images/malargue.jpeg' height="1000px"></div>
+
+                </div>
+-->
+
+<!--Espacios comunes
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col m12">
+                            <div class="card hoverable">
+                                <div class="card-image">
+                                    <div class="carousel carousel-slider">
+                                        <a class="carousel-item" href="#one!"><img
+                                                src="images/airelibre/parrillas.jpg"></a>
+                                        <a class="carousel-item" href="#two!"><img
+                                                src="images/airelibre/parrillas_2.jpg"></a>
+                                        <a class="carousel-item" href="#three!"><img
+                                                src="images/piscina/piscina3.jpg"></a>
+                                        <a class="carousel-item" href="#four!"><img
+                                                src="images/piscina/piscina4.jpg"></a>
+                                        <span class="card-title">Espacios comunes</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>El complejo cuenta con un predio de ½ Hectárea, dispones de Pileta
+                                            Climatizada
+                                            Cubierta
+                                            de 6,5 x 3,5 mts, espacio recreativo comunitario con parrillas, horno de
+                                            barro y
+                                            mesas
+                                            al aire libre para disfrutar de la paz y tranquilidad que brinda Malargüe.
+                                        </p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a name="reserva">Reservar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+-->
+
+<!--        Reservas 2
+
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card blue-grey darken-1 hoverable">
+                            <div class="card-content ">
+                                <span class="card-title">Reservas</span>
+
+                                <div class="row">
+                                    <div class="col s6">Del: <input type="text" class="datepicker" value="Ingreso">
+                                    </div>
+                                    <div class="col s6"> Al: <input type="text" class="datepicker" value="Salida"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">account_circle</i>
+                                                <input id="icon_prefix" type="text" class="validate">
+                                                <label for="icon_prefix">Nombre y Apellido</label>
+                                            </div>
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">phone</i>
+                                                <input id="icon_telephone" type="tel" class="validate">
+                                                <label for="icon_telephone">Telefono</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <select>
+                                            <optgroup label="Aparts">
+                                                <option value="1">Aparts hasta 2 personas.</option>
+                                                <option value="2">Aparts hasta 4 personas.</option>
+                                            </optgroup>
+                                            <optgroup label="Cabañas">
+                                                <option value="3">Cabañas hasta 4 personas.</option>
+                                            </optgroup>
+                                        </select>
+                                        <label>Hospedaje</label>
+                                    </div>
+
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Otros comentarios</label>
+                                    </div>
+
+                                </div>
+                                <div class="card-action">
+                                    <div class="right-align">
+                                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                                            Reservar
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+
+<!--servicios
+                <div class="div container">
+                    <div class="div row">
+
+                        <div class="col m4">
+
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header hoverable hoverable"><i
+                                            class="material-icons">landscape</i>Cabañas</div>
+                                    <div class="collapsible-body"><span>
+                                            <p><label> Las Cabañas (90 m2) cuentan con capacidad hasta 4 personas;
+                                                    consta
+                                                    del
+                                                    dormitorio principal en la planta baja con sommier de 2 ½ plazas, la
+                                                    segunda
+                                                    habitación en planta alta con 3 sommiers de 1 plaza (con opción de
+                                                    armar
+                                                    otra
+                                                    cama de 2 1/2 plazas). Dispones de microondas, anafe de cuatro
+                                                    hornallas
+                                                    (no
+                                                    horno), heladera, tostadora eléctrica y secador de pelo; vajilla
+                                                    completa,
+                                                    TV
+                                                    Lcd 32” c/Direct Tv Full, servicio de mucama diaria, elementos de
+                                                    toilette,
+                                                    Blanco, toallas que se cambian cada dos días y sábanas cada tres.
+                                                </label></p>
+
+                                        </span></div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header hoverable"><i
+                                            class="material-icons">location_city</i>Aparts
+                                    </div>
+                                    <div class="collapsible-body"><span>
+                                            <p><label> Hay parking gratis privado en el establecimiento. No es necesario
+                                                    reservar.
+                                                </label></p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Estacionamiento adaptado para personas con movilidad
+                                                        reducida</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Estacionamiento vigilado</span>
+                                                </label>
+                                            </p>
+
+
+                                        </span></div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col m4">
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header hoverable"><i class="material-icons">pool</i>Piscina
+                                    </div>
+                                    <div class="collapsible-body"><span>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Pileta</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Valla alrededor de la pileta</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Sombrillas</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Sillas y reposeras</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Pileta climatizada</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Sauna</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Solárium</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Baño público</span>
+                                                </label>
+                                            </p>
+                                        </span></div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header hoverable"><i
+                                            class="material-icons">nature</i>Espacio
+                                        Recreativo
+                                    </div>
+                                    <div class="collapsible-body"><span>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Zona de pícnic</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Mobiliario exterior</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Zona de comedor exterior</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Terraza/solárium</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Parrilla</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Jardín</span>
+                                                </label>
+                                            </p>
+
+
+
+
+                                        </span></div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col m4">
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header hoverable hoverable"><i
+                                            class="material-icons">info</i>General
+                                    </div>
+                                    <div class="collapsible-body"><span>
+                                            <p><label> El complejo cuenta con un predio de ½ Hectárea, dispones de
+                                                    Pileta
+                                                    Climatizada Cubierta de 6,5 x 3,5 mts, espacio recreativo
+                                                    comunitario
+                                                    con
+                                                    parrillas, horno de barro y mesas al aire libre para disfrutar de la
+                                                    paz
+                                                    y
+                                                    tranquilidad que brinda Malargüe.
+                                                </label></p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Zona de pícnic</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Mobiliario exterior</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Zona de pícnic</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Mobiliario exterior</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Terraza/solárium</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Parrilla</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Terraza</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Jardín/ Espacio recreativo</span>
+                                                </label>
+                                            </p>
+                                        </span></div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header hoverable"><i
+                                            class="material-icons">local_parking</i>Estacionamiento</div>
+                                    <div class="collapsible-body"><span>
+                                            <p><label> Hay parking gratis privado en el establecimiento. No es necesario
+                                                    reservar.
+                                                </label></p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Estacionamiento adaptado para personas con movilidad
+                                                        reducida</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" disabled="disabled" />
+                                                    <span>Estacionamiento vigilado</span>
+                                                </label>
+                                            </p>
+
+
+                                        </span></div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+-->
